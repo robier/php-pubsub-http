@@ -2,6 +2,7 @@
   "name": "robier/php-pubsub-http",
   "description": "An HTTP adapter for the php-pubsub package",
   "license": "MIT",
+  "minimum-stability": "beta",
   "authors": [
     {
       "name": "Superbalist.com a division of Takealot Online (Pty) Ltd",
