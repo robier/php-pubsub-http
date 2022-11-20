@@ -1,5 +1,5 @@
 {
-  "name": "superbalist/php-pubsub-http",
+  "name": "robier/php-pubsub-http",
   "description": "An HTTP adapter for the php-pubsub package",
   "license": "MIT",
   "authors": [
@@ -8,10 +8,13 @@
       "email": "info@superbalist.com"
     }
   ],
+  "conflict": {
+    "superbalist/php-pubsub-http": "*"
+  },
   "require": {
     "php": ">=5.6.0",
     "superbalist/php-pubsub": "^2.0",
-    "guzzlehttp/guzzle": "^6.2"
+    "guzzlehttp/guzzle": "^7.0"
   },
   "autoload": {
     "psr-4": {
